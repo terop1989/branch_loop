@@ -1,4 +1,9 @@
 node {
+
+    stage("Clean"){
+        deleteDir()
+    }
+
     stage("Making dir") {
         sh "mkdir 222"
     }
