@@ -10,5 +10,6 @@ node {
 
     dir("222") {
         git url: "https://github.com/terop1989/service01.git"
+        sh "git branch -l"
     }
 }
