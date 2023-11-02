@@ -1,3 +1,4 @@
+@NonCPS
 def getBranchNames(project){
     project.getItems().each { job ->
         echo job.getProperty(org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty.class).getBranch().getName()
